@@ -1,0 +1,27 @@
+@document.meta
+title: 2026-01-29
+description: 
+authors: dfg
+categories: 
+created: 2026-01-29T20:39:11+0530
+updated: 2026-01-29T20:47:58+0530
+version: 1.1.1
+@end
+
+SandSim - built in C and ASM
+
+This project is ment to be a pallete cleanser while being a challenge.
+The goal for this is to get my brain running again after a long slump and to learn how Assembly works
+and how to combine it with normal C to make a super optimized application.
+
+I have no exp with assembly and very little work show for C, but I know the syntax pretty well.
+
+For the task division between the languages, C will contain the UI, graphics,
+data structs(which contain paralell vectors for optimization), etc.
+while Assembly will exclusively handle the maths and do the operations on the paralell vectors.
+
+So for starters let us decide the scope of the simulation.
+I am aiming for the following features in the initial stage:
+- Ability to place sand on the canvas
+- ability to place place obsticles on the canvas
+- Sand falls down and colides with obsticles
