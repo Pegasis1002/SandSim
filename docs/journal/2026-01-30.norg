@@ -1,0 +1,16 @@
+@document.meta
+title: 2026-01-30
+description: 
+authors: dfg
+categories: 
+created: 2026-01-30T09:01:25+0530
+updated: 2026-01-30T09:36:11+0530
+version: 1.1.1
+@end
+
+The sim is currently a bit broken, there are a lot of bugs.
+* Goals to "Fix" the Sim
+  - Move the simulation logic into a new function, e.g., void update_simulation(Grid *grid);, and place it in src/sim.c.
+  - Move the rendering logic into a function, e.g., void draw_grid(const Grid *grid);.
+  - Create a corresponding header file in the include directory (e.g., sim.h) to declare these functions.
+  - Use the enum consistantly
