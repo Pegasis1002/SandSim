@@ -25,3 +25,7 @@ I am aiming for the following features in the initial stage:
 - Ability to place sand on the canvas
 - ability to place place obsticles on the canvas
 - Sand falls down and colides with obsticles
+
+Now we first need to define a struct, which will contain all our data for each cell.
+I have gone ahead and made a window appear.
+
